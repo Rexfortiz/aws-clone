@@ -4,7 +4,7 @@ import reInventLogo from 'assets/logo_reInvent2023.png'
 function Hero() {
     return(
         <section className='h-[565px] '>
-            <img src="assets/Hero_header.jpg" alt="background" className='w-full h-[565px] object-cover
+            <img src="sd" alt="background" className='w-full h-[565px] object-cover
                 absolute' />
                 <div className="absolute pl-[120px] flex flex-col gap-10 max-md:gap-5 max-lg:padding-x h-[565px] w-[70%] max-md:w-full pt-[150px] max-md:pt-[270px] ">            
                     <img src={reInventLogo} alt="re:invent" className='w-[200px]' />
