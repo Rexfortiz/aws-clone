@@ -1,13 +1,13 @@
-import card1 from "../assets/ProdCat1.jpg"
-import card2 from "../assets/ProdCat2.jpg"
-import card3 from "../assets/ProdCat3.jpg"
+import card1 from "/src/assets/ProdCat1.jpg"
+import card2 from "/src/assets/ProdCat2.jpg"
+import card3 from "/src/assets/ProdCat3.jpg"
 //import card4 from "../assets/ProdCat4.jpg"
 
-import Speech1 from '../assets/Speech1.jpg'
-import Speech2 from '../assets/Speech2.jpg'
-import Speech3 from '../assets/Speech3.jpg'
-import Speech4 from '../assets/Speech4.jpg'
-import Speech5 from '../assets/Speech5.jpg'
+import Speech1 from '/src/assets/Speech1.jpg'
+import Speech2 from '/src/assets/Speech2.jpg'
+import Speech3 from '/src/assets/Speech3.jpg'
+import Speech4 from '/src/assets/Speech4.jpg'
+import Speech5 from '/src/assets/Speech5.jpg'
 
 export const features = [
     {

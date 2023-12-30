@@ -1,4 +1,4 @@
-import innovationImg from '../assets/InnovationTalk.jpg'
+import innovationImg from '/src/assets/InnovationTalk.jpg'
 
 const InnovationTalks = () => {
   return (

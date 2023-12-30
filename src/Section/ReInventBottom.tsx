@@ -1,5 +1,5 @@
-import heroFootImg from '../assets/HeroFoot.jpg'
-import reInventImg from '../assets/logo_reInvent2023.png'
+import heroFootImg from '/src/assets/HeroFoot.jpg'
+import reInventImg from '/src/assets/logo_reInvent2023.png'
 
 const ReInventBottom = () => {
   return (

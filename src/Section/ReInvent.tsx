@@ -1,5 +1,5 @@
-import headerImg from "../assets/Hero_header.jpg"
-import reInventLogo from '../assets/logo_reInvent2023.png'
+import headerImg from "/src/assets/Hero_header.jpg"
+import reInventLogo from '/src/assets/logo_reInvent2023.png'
 
 function Hero() {
     return(
