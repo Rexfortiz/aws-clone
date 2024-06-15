@@ -1,4 +1,5 @@
 import { useState } from "react";
+import awsLogoImg from '/src/assets/pngwing.com.png';
 
 function Header(){
 
@@ -9,7 +10,7 @@ function Header(){
             <div className="nav-header max-md:px-0">
                 <div className="top-container max-md:hidden">
                     <div className='nav-logo'>
-                        <img className="aws-logo" src="./src/assets/pngwing.com.png"  alt="AWS logo" />
+                        <img className="aws-logo" src={awsLogoImg}  alt="AWS logo" />
                     </div>
                     <nav className="nav-secondary-group mb-2">
                         <div>
@@ -101,7 +102,7 @@ function Header(){
                 </div>
                 <div className="hidden max-md:block">                
                     <div className="top-container flex pl-[23px] pr-7 pt-1">
-                        <img className="w-12" src="./src/assets/pngwing.com.png"  alt="AWS logo" />
+                        <img className="w-12" src={awsLogoImg}  alt="AWS logo" />
                         <div className="flex gap-4 justify-center items-center text-2xl">
                             <i className="fa-solid fa-magnifying-glass"></i>
                             <i className="fa-solid fa-bars"></i>

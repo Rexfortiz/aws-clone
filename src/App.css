@@ -1,0 +1,346 @@
+:root {
+  --cards:5;
+  --cardHeight:69.5vh;
+  --cardTopPadding: 1em;
+  --cardMargin: 4vw;
+}
+:root h2 {
+  font-weight: 600;
+  font-size: 54.5px;
+}
+:root h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.align-left {
+  transform: translate(0%, 0%);
+}
+
+.align-right {
+  transform: translate(-50%, 0%);
+}
+
+.nav-primary-group {
+  overflow: hidden;
+  margin-top: 5px;
+  display: flex;
+  width: 1020px;
+}
+.nav-primary-group a {
+  color: azure;
+  text-decoration-line: none;
+  padding-right: 5px;
+}
+.nav-primary-group a:hover {
+  color: #ff9900;
+}
+
+.nav-primary-link {
+  transition: transform 0.3s ease-in-out;
+}
+.nav-primary-link ul {
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.85em;
+  overflow: hidden;
+  display: flex;
+  width: 1020px;
+}
+
+.nav-primary-link ul li {
+  padding-right: 15px;
+  flex: 0 0 auto;
+}
+
+.nav-secondary-group {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8em;
+}
+.nav-secondary-group a {
+  color: azure;
+  text-decoration-line: none;
+  padding-right: 5px;
+}
+.nav-secondary-group a:hover {
+  color: #ff9900;
+}
+
+.header {
+  background-color: #232f3e;
+  position: sticky;
+  top: 0;
+  font-weight: regular;
+}
+
+.aws-logo {
+  width: 58px;
+}
+
+.nav-secondary-group a {
+  padding-left: 10px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#create-account {
+  background-color: #f90;
+  color: #000716;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.primary-container {
+  display: flex;
+  align-items: center;
+}
+
+.primary-left {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 7px;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-left i {
+  flex: 0 0 auto;
+  padding-right: 10px;
+}
+
+.sub-title {
+  padding-left: 297px;
+  padding-top: 80px;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.arrow-header-right {
+  box-shadow: -7px 0 7px 4px #232f3e;
+}
+
+.arrow-header-left {
+  box-shadow: 5px 0 7px 4px #232f3e;
+}
+
+/*THIS IS CONTENT CSS*/
+.invent-content {
+  margin-left: 110px;
+  margin-top: 130px;
+}
+.invent-content img {
+  width: 182px;
+}
+.invent-content h2 {
+  padding-top: 36px;
+}
+.invent-content h4 {
+  padding-top: 7px;
+  font-weight: 500;
+  font-size: 21.8px;
+}
+.invent-content button {
+  margin-top: 33px;
+  height: 46.5px;
+  width: 120.5px;
+  font-size: 14.4px;
+}
+
+/*HIGHLIGHTS SECTION*/
+.highlights {
+  border: 2px solid blue;
+  height: 300px;
+}
+
+.card-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-high:hover .card-shadow {
+  box-shadow: 0px 0px 20px 2px rgb(81, 129, 161);
+}
+.card-high:hover .expand {
+  display: block;
+}
+
+/* INI FEATURES*/
+.filter-btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+  box-shadow: 0px 0px 20px 3px rgb(176, 221, 250);
+  background-color: aliceblue;
+  color: black;
+}
+
+.feature-card1 {
+  transition: all 0.2s ease-in-out;
+}
+
+.feature-card1:hover {
+  box-shadow: 0px 0px 17px 3px red;
+}
+.feature-card1:hover .arrow-feature {
+  transform: translateX(10px);
+}
+
+.feature-card2 {
+  transition: all 0.2s ease-in-out;
+}
+
+.feature-card2:hover {
+  box-shadow: 0px 0px 17px 3px rgb(73, 122, 197);
+}
+.feature-card2:hover .arrow-feature {
+  transform: translateX(10px);
+}
+
+.icon-arrow {
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.5s linear, height 0.5s linear;
+}
+
+.show-btn {
+  font-size: 80%;
+  width: 140px;
+  overflow: hidden;
+  transition: all 0.5s;
+  transform-origin: right center;
+  transition-delay: all 1s;
+}
+
+.show-btn:hover .icon-arrow {
+  opacity: 1;
+}
+
+.show-btn:hover {
+  width: 160px;
+  transition: width 0.3s ease-in-out;
+}
+
+/*Announced Product*/
+.text-gradient {
+  background: linear-gradient(to top, red, yellow);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+#filter-popup {
+  box-shadow: 0px 0px 15px red;
+}
+
+#filter-pop {
+  display: none;
+}
+
+.group input[type=radio]:not(:checked) + div .fa-check:before {
+  /* Styles for the check icon when the radio button is not checked */
+  display: none;
+}
+
+.group input[type=radio]:checked + div .fa-check:before {
+  /* Styles for the check icon when the radio button is checked */
+  display: block;
+}
+
+/*================INI SPEECH================*/
+.speechContainer {
+  width: 100%;
+  margin: 0 0;
+}
+
+#cardsSpeech {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--cards), var(--cardHeight));
+  gap: 15px;
+  padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+  margin-bottom: var(--cardMargin);
+}
+
+#speechCard1 {
+  --index: 1.24;
+  z-index: 50;
+}
+
+#speechCard2 {
+  --index: 2.48;
+  z-index: 40;
+}
+
+#speechCard3 {
+  --index: 3.72;
+  z-index: 30;
+}
+
+#speechCard4 {
+  --index: 4.96;
+  z-index: 20;
+}
+
+#speechCard5 {
+  --index: 6.2;
+  z-index: 10;
+}
+
+.cardSpeech {
+  position: sticky;
+  bottom: 170px;
+  padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+.cardSpeech-body {
+  height: var(--cardHeight);
+  width: 100%;
+  cursor: pointer;
+}
+.cardSpeech-body img {
+  height: var(--cardHeight);
+  width: 100%;
+  border-radius: 24px;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.cardSpeech-body:hover img {
+  box-shadow: 0 0 20px 2px rgb(148, 146, 253);
+}
+.cardSpeech-body:hover .expand {
+  display: block;
+}
+
+.inner-shadow-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  box-shadow: inset 50px 0px 400px 40px rgba(0, 4, 43, 0.7450980392);
+}
+
+/*NEWS BLOGG*/
+.news-card:hover .expand {
+  display: block;
+}
+
+/*========Footer DIV=======*/
+.footer-div li {
+  font-size: 14px;
+  padding: 3px 0;
+}
+.footer-div a:hover {
+  color: #ff9900;
+}
+
+.shadow-inside {
+  box-shadow: inset 0px -50px 100px 0px rgba(0, 0, 0, 0.247);
+}/*# sourceMappingURL=App.css.map */
